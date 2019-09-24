@@ -28,7 +28,7 @@ requirements:
     - pytz
     - setuptools >=1.0
     - skyfield
-    - skyfield-data
+    - skyfield_data
 
 test:
   imports:
