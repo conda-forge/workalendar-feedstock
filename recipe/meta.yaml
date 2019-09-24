@@ -20,7 +20,6 @@ requirements:
     - python
     
   run:
-    - ephem
     - lunardate
     - pycalverter
     - pyluach
@@ -29,6 +28,7 @@ requirements:
     - pytz
     - setuptools >=1.0
     - skyfield
+    - skyfield-data
 
 test:
   imports:
