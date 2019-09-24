@@ -28,6 +28,7 @@ requirements:
     - python-dateutil
     - pytz
     - setuptools >=1.0
+    - skyfield
 
 test:
   imports:
