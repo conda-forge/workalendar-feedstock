@@ -20,9 +20,9 @@ requirements:
     - python
     
   run:
-    - ephem
     - lunardate
     - pycalverter
+    - skyfield
     - pyluach
     - python
     - python-dateutil
