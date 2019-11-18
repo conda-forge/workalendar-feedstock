@@ -23,7 +23,7 @@ requirements:
     - lunardate
     - pycalverter
     - skyfield
-    - skyfied-data
+    - skyfield-data
     - pyluach
     - python
     - python-dateutil
