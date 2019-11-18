@@ -1,5 +1,5 @@
 {% set name = "workalendar" %}
-{% set version = "6.0.1" %}
+{% set version = "7.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ed97274273e79ced1dc8b77e172f1c222ddd045da5110f97aa4fb99820dea2aa
+  sha256: 42ae0017b64631f7152e483dcea61794398bd7344b2378259e8d8cd7787e726d
 
 build:
   noarch: python
@@ -20,9 +20,10 @@ requirements:
     - python
     
   run:
-    - ephem
     - lunardate
     - pycalverter
+    - skyfield
+    - skyfield-data
     - pyluach
     - python
     - python-dateutil
