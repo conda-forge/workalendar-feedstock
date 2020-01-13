@@ -21,6 +21,7 @@ requirements:
     
   run:
     - lunardate
+    - jplephem
     - pycalverter
     - skyfield
     - skyfield-data
