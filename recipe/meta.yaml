@@ -1,24 +1,24 @@
 {% set name = "workalendar" %}
-{% set version = "8.1.0" %}
+{% set version = "8.2.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 428e906da5fa08482502ad6f86d40306872144d694aac95056741c4b0379fefd
+  sha256: 6518b57ef9902f485f7135a2bb0672af91de3c8dd2cd975eb06707b4f9ebcca5
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
     - pip
     - python
-    
+
   run:
     - lunardate
     - pycalverter
