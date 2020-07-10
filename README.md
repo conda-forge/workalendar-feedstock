@@ -5,7 +5,7 @@ Home: https://github.com/peopledoc/workalendar
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Worldwide holidays and working days helper and toolkit.
 
