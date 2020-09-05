@@ -1,5 +1,5 @@
 {% set name = "workalendar" %}
-{% set version = "10.4.0" %}
+{% set version = "11.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b81c40f6065054ef0f734e1cc350ac840100d9bff40a2bf5cd5c66664af872fa
+  sha256: a63c15cf5be9c4b4f7d902924577b1a67bf8dbe395e1db5ac862f6543676af07
 
 build:
   noarch: python
@@ -29,6 +29,7 @@ requirements:
     - python-dateutil
     - pytz
     - setuptools >=1.0
+    - freezegun
 
 test:
   imports:
