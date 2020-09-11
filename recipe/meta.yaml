@@ -1,5 +1,5 @@
 {% set name = "workalendar" %}
-{% set version = "11.0.0" %}
+{% set version = "11.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a63c15cf5be9c4b4f7d902924577b1a67bf8dbe395e1db5ac862f6543676af07
+  sha256: 0abd3de39c55031ed717deadf191720f5cf51bd922e0d17be052f562addf90ac
 
 build:
   noarch: python
