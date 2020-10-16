@@ -5,11 +5,9 @@ Home: https://github.com/peopledoc/workalendar
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/workalendar-feedstock/blob/master/LICENSE.txt)
 
 Summary: Worldwide holidays and working days helper and toolkit.
-
-
 
 Current build status
 ====================
