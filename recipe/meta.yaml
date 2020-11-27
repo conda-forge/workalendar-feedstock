@@ -29,6 +29,7 @@ requirements:
     - python-dateutil
     - pytz
     - setuptools >=1.0
+    - freezegun
 
 test:
   imports:
