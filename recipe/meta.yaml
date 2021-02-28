@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
 
   run:
     - lunardate
@@ -25,7 +25,7 @@ requirements:
     - skyfield
     - skyfield-data
     - pyluach
-    - python
+    - python >=3.6
     - python-dateutil
     - pytz
     - setuptools >=1.0
