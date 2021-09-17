@@ -21,7 +21,7 @@ requirements:
 
   run:
     - lunardate
-    - pycalverter
+    - convertdate
     - skyfield
     - skyfield-data
     - pyluach
