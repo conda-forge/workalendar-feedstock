@@ -11,25 +11,23 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
 
   run:
-    - lunardate
-    - convertdate
-    - skyfield
-    - skyfield-data
-    - pyluach
-    - python >=3.6
+    - python >=3.7
     - python-dateutil
-    - pytz
-    - setuptools >=1.0
-    - freezegun
+    - lunardate
+    - backports.zoneinfo
+    - tzdata
+    - convertdate
+    - pyluach
+    - importlib-metadata
 
 test:
   imports:
@@ -43,6 +41,10 @@ test:
     - workalendar.oceania
     - workalendar.tests
     - workalendar.usa
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/peopledoc/workalendar
