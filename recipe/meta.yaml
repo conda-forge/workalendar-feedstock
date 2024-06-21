@@ -39,7 +39,6 @@ test:
     - workalendar.europe.scotland
     - workalendar.europe.scotland.mixins
     - workalendar.oceania
-    - workalendar.tests
     - workalendar.usa
   commands:
     - pip check
